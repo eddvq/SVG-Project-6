@@ -4,8 +4,18 @@ body {
   text-align: center;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  color: #111;
-  background: url('images/background.png') #edeff0;
+  color: #111; 
+    
+
+  background: url('svgs/background.svg') #edeff0;
+  background-size: 56px;
+  background-color: aqua*/
+}
+
+.logo-svg{
+    width: 140px;
+    height: 120px;
+    
 }
 
 #container {
@@ -24,10 +34,12 @@ p {
 a {
   text-decoration: none;
   color: #39add1;
+  fill: #39add1;
   font-weight: 700;
   }
   a:hover {
     color: #111;
+      fill: #111;
   }
 
 header {
@@ -40,7 +52,10 @@ header {
   header nav ul li {
     display: inline-block;
     margin-right: 20px;
-  }
+  } 
+
+
+
   header h1 {
     line-height: 1em;
   }
@@ -55,6 +70,7 @@ main {
     padding: 0;
   }
     main li {
+      width: 175px;
       display: inline-block;
       color: #ba8058;
       margin-right: 20px;
