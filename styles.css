@@ -9,7 +9,6 @@ body {
 
   background: url('svgs/background.svg') #edeff0;
   background-size: 56px;
-  background-color: aqua*/
 }
 
 .logo-svg{
@@ -39,7 +38,7 @@ a {
   }
   a:hover {
     color: #111;
-      fill: #111;
+    fill: #111;
   }
 
 header {
